@@ -4,9 +4,9 @@ public class Task22 {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         System.out.println("Введіть 3 числа");
-        double a = scnr.nextInt();
-        double b = scnr.nextInt();
-        double c = scnr.nextInt();
+        double a = scnr.nextDouble();
+        double b = scnr.nextDouble();
+        double c = scnr.nextDouble();
 
 
         double smallest = Math.min(a, Math.min(b, c));
